@@ -24,7 +24,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // Credenciales válidas, iniciar sesión
     $_SESSION['username'] = $username;
-    header("Location: pagina_principal.html"); // Redireccionar a la página principal después de iniciar sesión
+    header("Location: ../html/pagina_principal.html"); // Redireccionar a la página principal después de iniciar sesión
 } else {
     // Credenciales inválidas, mostrar mensaje de error
     echo "Credenciales inválidas. Inténtalo de nuevo.";
