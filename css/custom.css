@@ -1,0 +1,119 @@
+.pantalla2 {
+  background: #ffffff;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  /* border-radius: 30px; */
+  /* box-shadow: 0 0 2em #e6e9f9; */
+  gap: 2em;
+  margin-left: 15em;
+  margin-right: 15em;
+  margin-top: -2em;
+  margin-bottom: -2em;
+}
+
+
+.titulo {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+.ubicacion {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: -2em;
+}
+
+.botones {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cuadros {
+  display: flex
+}
+
+
+.temperatura {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -6em;
+  margin-bottom: -2em;
+}
+
+.modo {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding-top: em;
+}
+
+.botonesTemp {
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-bottom: -4em;
+}
+
+.botones {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding-top: 2em;
+  margin: auto;
+  margin-top: 1em;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 5em;
+  margin-left: -5em;
+  margin-right: -5em;
+}
+
+.btn {
+  background-color: #2178eb;
+  /* Color rojo por defecto */
+  color: white;
+  /* Texto en blanco para que sea legible */
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background-color: gray;
+  /* Color azul cuando está deshabilitado */
+  cursor: not-allowed;
+  /* Cambiar el cursor a "no permitido" cuando está deshabilitado */
+}
